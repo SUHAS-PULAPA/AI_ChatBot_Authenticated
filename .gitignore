@@ -37,6 +37,7 @@ Thumbs.db
 ai-service/__pycache__/
 ai-service/*.py[cod]
 ai-service/.venv/
+ai-service/venv/
 
 # Local secrets / databases
 *.sqlite
