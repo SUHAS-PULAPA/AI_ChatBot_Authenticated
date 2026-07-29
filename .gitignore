@@ -1,0 +1,45 @@
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node / package manager
+node_modules/
+client/node_modules/
+server/node_modules/
+ai-service/node_modules/
+package-lock.json
+client/package-lock.json
+server/package-lock.json
+ai-service/package-lock.json
+
+# Build outputs
+client/dist/
+server/dist/
+ai-service/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python artifacts
+ai-service/__pycache__/
+ai-service/*.py[cod]
+ai-service/.venv/
+
+# Local secrets / databases
+*.sqlite
+*.db
+*.pem
+*.key
